@@ -1,3 +1,54 @@
-body{
+body {
     font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+    font-weight: 700;
+}
+
+section {
+    margin: 0 100px;
+}
+
+.declared{
+    color: #575757;
+}
+
+.colored{
+    color: #fc8c49;
+}
+
+.top {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-part {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half-part img {
+    width: 90%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fc8c49, #fd4d30);
+    padding: 18px 40px;
+    border-radius: 50px;
+    color: white;
+}
+
+.half-part p {
+    margin-bottom: 70px;
+    font-size: 18px;
 }
