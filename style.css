@@ -6,13 +6,6 @@ h1 {
     font-size: 50px;
     text-align: left;
     font-weight: 700;
-}
-
-section {
-    margin: 0 100px;
-}
-
-.declared{
     color: #575757;
 }
 
@@ -34,6 +27,7 @@ section {
 .half-part {
     width: 50%;
     margin-left: 5%;
+    padding-left: 5%;
 }
 
 .half-part img {
@@ -51,4 +45,20 @@ section {
 .half-part p {
     margin-bottom: 70px;
     font-size: 18px;
+}
+
+.about{
+    background-image: url(./images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.middle-image img{
+    width: 60%;
+    padding-left: 20%;
+}
+
+.middle-text{
+    padding-right: 10%;
 }
